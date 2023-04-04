@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Bulma CSS Example</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css">
+	<!--The rest of your code-->
+
+	<!--The enhanceai script from earlier-->
+	<script type="text/javascript" src="https://enhanceai.dev/library/enhanceai-v0.1.0.min.js"/>
+	<!--Replace YOUR_API_KEY with your API Key below-->
+	<script>
+		const apiKey = "live-4e066b461bab81d76ab08354b0119744";
+		document.enhanceai = { ...document.enhanceai, apiKey};
+	</script>
+</head>
+<body>
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-half">
+        <div class="field">
+          <label class="label">Text Area</label>
+          <div class="control">
+            <textarea
+	id="my-powerful-textarea"
+	class="enhanceai ..."
+	data-aicontext="YOUR_CONTEXT"
+/>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
